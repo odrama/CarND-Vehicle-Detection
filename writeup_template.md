@@ -23,7 +23,12 @@ The goals / steps of this project are the following:
 [image6]: ./examples/labels_map.png
 [image7]: ./examples/output_bboxes.png
 [video1]: ./project_output.mp4
-[image1]: ./test_images/download(1).png
+[image11]: ./output_images/download (1).png
+[image12]: ./output_images/download (2).png
+[image13]: ./output_images/download (3).png
+[image14]: ./output_images/download (4).png
+[image15]: ./output_images/download (5).png
+[image16]: ./output_images/download (6).png
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/513/view) Points
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
@@ -87,9 +92,14 @@ Here's a [link to my video result](./project_output.mp4)
 
 Using the heatmap concept introduced in the lectures, it was possible to eliminate most of false positives by thresholding for a minimum number of detections. In addition `scipy.ndimage.measurements.label()` was used to identify vehicles based on the output of the thresholded heatmap. Bounding boxes were then superimposed over each vehicle.t frame of video:
 
-### Here are six frames and their corresponding heatmaps:
+### Here are six frames and their corresponding heatmaps and summarized bounding boxes:
 
-![alt text][image5]
+![alt text][image11]
+![alt text][image12]
+![alt text][image13]
+![alt text][image14]
+![alt text][image15]
+![alt text][image16]
 
 ### Here is the output of `scipy.ndimage.measurements.label()` on the integrated heatmap from all six frames:
 ![alt text][image6]
