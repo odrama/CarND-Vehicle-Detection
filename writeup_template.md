@@ -22,12 +22,12 @@ The goals / steps of this project are the following:
 [image5]: ./examples/bboxes_and_heat.png
 [image6]: ./examples/labels_map.png
 [image7]: ./examples/output_bboxes.png
-[image8]: ./output_images/download (1).png
-[image9]: ./output_images/download (2).png
-[image10]: ./output_images/download (3).png
-[image11]: ./output_images/download (4).png
-[image12]: ./output_images/download (5).png
-[image13]: ./output_images/download (6).png
+[image8]: ./output_images/download(1).png
+[image9]: ./output_images/download(2).png
+[image10]: ./output_images/download(3).png
+[image11]: ./output_images/download(4).png
+[image12]: ./output_images/download(5).png
+[image13]: ./output_images/download(6).png
 [video1]: ./project_output.mp4
 
 
